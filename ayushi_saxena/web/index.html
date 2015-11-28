@@ -1,49 +1,147 @@
-   
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>baby's world</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!DOCTYPE html>
+<!--
+TEMPLATE
+Name: Zoo Planet
+Version: 1.0
+Created: 23 January 2014
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+AUTHOR
+Design and code by: http://www.bootshape.com
+Free stock photos by: http://www.bootshape.com
 
-</head>
+Read full license: http://www.bootshape.com/license.php
 
-<body>
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><span class="icon icon-cog"></span><a href="#">Baby's World</a></h1>
-                       <h1> <img src="baby1.jpg" height="800" width="1000" align="middle" > </h1>
-                        
-			<div id="menu">
-				<ul>
-					<li class="current_page_item"><a href="#" accesskey="1" title="">HOME</a></li>
-					<li><a href="trend.html">TREND</a><br>
-                                                <li><a href="popularity.html">POPULARITY</a></li>
-					</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="page-wrapper">
-	<div id="page" class="container">
-		<div class="title">
-			<h2>Welcome to our website...</h2>
-		</div>
-		<p>With every new born baby , a new name is born</p>
+CREDITS
+Background: http://subtlepatterns.com/ (extra_clean_paper)
+Fonts: http://www.google.com/fonts (Actor, Duru_Sans)
+
+SUPPORT
+E-mail: bootshape.com@gmail.com
+Contact: http://www.bootshape.com/contact.php
+-->
+<html>
+  <head>
+    <title>baby's world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Duru+Sans|Actor' rel='stylesheet' type='text/css'>
+    
+    <!--Bootshape-->
+    <link href="css/bootshape.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="green">BABY'S</span> WORLD</a>
+        </div>
+        <nav role="navigation" class="collapse navbar-collapse navbar-right">
+          <ul class="navbar-nav nav">
+            <li class="active"><a href="index.html">Home</a></li>
+           
+          </ul>
+        </nav>
+      </div>
+    </div><!-- End Navigation bar -->
+
+    <!-- Slide gallery -->
+    <div class="jumbotron">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/carousel1.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel2.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel3.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div><!-- End Slide gallery -->
+
+    <h3 class="text-center"></h3>
+    <!-- Thumbnails -->
+    <div class="container thumbs">
+      <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="baby1.jpg" alt="" class="img-circle">
+    <div class="caption">
+            
+            <p>Here you can search the popularity of your baby name</p>
+            <div class="btn-toolbar text-center">
+              <a href="trend.html" role="button" class="btn btn-success">Trend</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="img/pic2.jpg" alt="" class="img-circle">
+          <div class="caption">
+           
+            <p>Here you can search the popularity of your baby name</p>
+            <div class="btn-toolbar text-center">
+              <a href="popularity.html" role="button" class="btn btn-success">POPULARITY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div><!-- End Thumbnails -->
+    
+    
+    
+    
+    <div class="footer text-center">
+        <p>With every new born baby , a new name is born</p>
                 <p>They may grow old , but their names are their true companions</p>
                 <p>So here you can search your baby names and their trends on our website...</p>
-                    <div id="copyright">
-				&copy; Design by Ayushi Saxena</a>
-			</div>
-	</div>
-</div>
+        <p>&copy; created by <a class="green" href="http://bootshape.com">Ayushi Saxena</a></p>
+    </div><!-- End Footer -->
 
-                               
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- // <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootshape.js"></script>
+  </body>
 </html>
